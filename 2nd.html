@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UFT-8">
   <title>二次創作ガイドライン</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
 	h1{
 	text-align: center;
@@ -41,6 +42,31 @@ nav a:hover {
 }
     html {
     scroll-behavior: smooth;
+}
+		/* 基本のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* PC用のデザイン */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* スマホ用のデザイン（幅768px以下） */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
 }
 	</style>
 </head>
